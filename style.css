@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "__Roobert_d73e4f", "__Roobert_Fallback_d73e4f", sans-serif;
+}
+
+.hero-page {
+  background: url(./image/heroimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 20px;
+}
+p {
+  max-width: 600px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+button{
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: aqua;
+    border-radius: 5px;
+    align-self: center;
+    border: none;
+}
+input{
+    width: 500px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
+.foodImages {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: normal;
+  margin: 30px;
+  margin-left: 35px;
+  margin-right: 5px;
+}
